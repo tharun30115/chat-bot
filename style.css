@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a;
+    background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 
 .chat-header {
     background-color: #3a3a3a;
-    color: #fff;
+    color: wheat;
     padding: 15px;
     text-align: center;
 }
@@ -92,8 +92,8 @@ body {
 
 #send-button {
     padding: 10px 20px;
-    background-color: #4a90e2;
-    color: #fff;
+    background-color: wheat;
+    color: black;
     border: none;
     border-radius: 5px;
     margin-left: 10px;
@@ -103,6 +103,7 @@ body {
 
 #send-button:hover {
     background-color: #3a7bc8;
+    color: black;
 }
 
 #send-button:disabled {
